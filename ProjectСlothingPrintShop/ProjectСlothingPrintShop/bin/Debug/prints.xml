@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ArrayOfPrintItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PrintItem>
+    <Id>1</Id>
+    <Title>Leon</Title>
+    <ImageName>images/print1.jpg</ImageName>
+  </PrintItem>
+  <PrintItem>
+    <Id>2</Id>
+    <Title>Vortex</Title>
+    <ImageName>images/print2.jpg</ImageName>
+  </PrintItem>
+  <PrintItem>
+    <Id>3</Id>
+    <Title>Circle</Title>
+    <ImageName>images/print3.jpg</ImageName>
+  </PrintItem>
+  <PrintItem>
+    <Id>4</Id>
+    <Title>Batman</Title>
+    <ImageName>images/print4.jpg</ImageName>
+  </PrintItem>
+  <PrintItem>
+    <Id>5</Id>
+    <Title>BluePrint</Title>
+    <ImageName>images/print5.jpg</ImageName>
+  </PrintItem>
+  <PrintItem>
+    <Id>6</Id>
+    <Title>Step</Title>
+    <ImageName>images/print6.jpg</ImageName>
+  </PrintItem>
+  <PrintItem>
+    <Id>7</Id>
+    <Title>EA Dragon</Title>
+    <ImageName>images/print7.jpg</ImageName>
+  </PrintItem>
+  <PrintItem>
+    <Id>8</Id>
+    <Title>Fresh Fish</Title>
+    <ImageName>images/print8.jpg</ImageName>
+  </PrintItem>
+  <PrintItem>
+    <Id>9</Id>
+    <Title>Hand 5</Title>
+    <ImageName>images/print9.jpg</ImageName>
+  </PrintItem>
+</ArrayOfPrintItem>
