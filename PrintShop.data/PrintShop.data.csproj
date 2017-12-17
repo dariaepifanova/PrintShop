@@ -59,9 +59,9 @@
     <Compile Include="Iterfaces\IOrderRepository.cs" />
     <Compile Include="Iterfaces\IPrintItemRepository.cs" />
     <Compile Include="Iterfaces\IRepository.cs" />
-    <Compile Include="Migrations\201712170127389_Init.cs" />
-    <Compile Include="Migrations\201712170127389_Init.Designer.cs">
-      <DependentUpon>201712170127389_Init.cs</DependentUpon>
+    <Compile Include="Migrations\201712171737058_Initiate.cs" />
+    <Compile Include="Migrations\201712171737058_Initiate.Designer.cs">
+      <DependentUpon>201712171737058_Initiate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\AuthToken.cs" />
@@ -92,8 +92,8 @@
     <Content Include="Images\print9.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201712170127389_Init.resx">
-      <DependentUpon>201712170127389_Init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201712171737058_Initiate.resx">
+      <DependentUpon>201712171737058_Initiate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
