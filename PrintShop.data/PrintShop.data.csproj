@@ -33,7 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,11 +52,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLogic\OrdersManager.cs" />
+    <Compile Include="BusinessLogic\UsersManager.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="Iterfaces\IClientRepository.cs" />
+    <Compile Include="Iterfaces\IOrderRepository.cs" />
+    <Compile Include="Iterfaces\IPrintItemRepository.cs" />
+    <Compile Include="Iterfaces\IRepository.cs" />
+    <Compile Include="Migrations\201712170127389_Init.cs" />
+    <Compile Include="Migrations\201712170127389_Init.Designer.cs">
+      <DependentUpon>201712170127389_Init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\AuthToken.cs" />
+    <Compile Include="Model\Client.cs" />
+    <Compile Include="Model\Order.cs" />
+    <Compile Include="Model\PrintItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ClientRepository.cs" />
+    <Compile Include="Repository\OrderRepository.cs" />
+    <Compile Include="Repository\PrintItemRepository.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\print1.jpg" />
+    <Content Include="Images\print2.jpg" />
+    <Content Include="Images\print3.jpg" />
+    <Content Include="Images\print4.jpg" />
+    <Content Include="Images\print5.jpg" />
+    <Content Include="Images\print6.jpg" />
+    <Content Include="Images\print7.jpg" />
+    <Content Include="Images\print8.jpg" />
+    <Content Include="Images\print9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201712170127389_Init.resx">
+      <DependentUpon>201712170127389_Init.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
