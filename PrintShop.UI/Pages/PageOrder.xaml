@@ -47,8 +47,8 @@
                             <Image Grid.Row="0" 
                                        Width="80" Height="80"
                                                Grid.Column="0" 
-                                               Source="{Binding Order.PrintItem.ImageName}"/>
-                            <Button Content="{Binding Order.PrintItem.Title}"/>
+                                               Source="{Binding PrintImageName}"/>
+                            <Button Content="{Binding PrintTitle}"/>
                             <Button Content="{Binding ClothesType}"/>
                             <Button Content="{Binding ClothesSize}"/>
                             <Button Content="{Binding Quantity}"/>

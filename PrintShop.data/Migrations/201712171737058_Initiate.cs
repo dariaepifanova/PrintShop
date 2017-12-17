@@ -3,7 +3,7 @@ namespace PrintShop.data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Init : DbMigration
+    public partial class Initiate : DbMigration
     {
         public override void Up()
         {
@@ -24,17 +24,17 @@ namespace PrintShop.data.Migrations
                 "dbo.Orders",
                 c => new
                     {
-                        OrderId = c.Int(nullable: false),
+                        OrderId = c.Int(nullable: false, identity: true),
                         ClientId = c.Int(nullable: false),
-                        AdoptionDate = c.DateTime(nullable: false),
                         PrintItemId = c.Int(nullable: false),
-                        ExportDate = c.DateTime(nullable: false),
-                        Delivery = c.String(),
-                        Quantity = c.Int(nullable: false),
                         ClothesSize = c.String(),
                         ClothesType = c.String(),
+                        Quantity = c.Int(nullable: false),
+                        AdoptionDate = c.DateTime(nullable: false),
+                        ExportDate = c.DateTime(nullable: false),
+                        Delivery = c.String(),
                     })
-                .PrimaryKey(t => new { t.OrderId, t.ClientId, t.AdoptionDate, t.PrintItemId })
+                .PrimaryKey(t => t.OrderId)
                 .ForeignKey("dbo.Clients", t => t.ClientId, cascadeDelete: true)
                 .ForeignKey("dbo.PrintItems", t => t.PrintItemId, cascadeDelete: true)
                 .Index(t => t.ClientId)
