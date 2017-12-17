@@ -7,13 +7,13 @@ namespace PrintShop.data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Initiate : IMigrationMetadata
+    public sealed partial class Init : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Initiate));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Init));
         
         string IMigrationMetadata.Id
         {
-            get { return "201712171737058_Initiate"; }
+            get { return "201712172045109_Init"; }
         }
         
         string IMigrationMetadata.Source
