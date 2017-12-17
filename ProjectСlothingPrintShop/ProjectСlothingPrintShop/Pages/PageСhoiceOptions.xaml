@@ -1,0 +1,60 @@
+﻿<Page x:Class="ProjectСlothingPrintShop.Pages.PageСhoiceOptions"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProjectСlothingPrintShop.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="PageСhoiceOptions">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel  Orientation="Horizontal"
+                     HorizontalAlignment="Center"
+                     Grid.Row="0"
+                     Grid.Column="0"
+                     Grid.ColumnSpan="2">
+            <Image Name="imagePrint">
+
+            </Image>
+            <Label Name="labelPrint" VerticalAlignment="Center">
+                Принт
+            </Label>
+        </StackPanel>
+
+        <Label Grid.Column="0"
+               Grid.Row="1">
+            Тип одежды:
+        </Label>
+        <Label Grid.Column="1"
+               Grid.Row="1">
+            Размер одежды:
+        </Label>
+        <ListBox Grid.Column="0"
+                 Grid.Row="2"
+                 Name="listBoxClothesTypes">
+            
+        </ListBox>
+        <ListBox Grid.Column="1"
+                 Grid.Row="2"
+                 Name="listBoxClothesSize">
+
+        </ListBox>
+        <Button Click="BtnDoneClick" Grid.Column="1" Grid.Row="3" Width="90" Height="40">
+            Готово
+        </Button>
+        <Button Click="BtnShopingClick" Grid.Column="0" Grid.Row="3" Width="90" Height="40">
+            Заказать ещё
+        </Button>
+    </Grid>
+</Page>

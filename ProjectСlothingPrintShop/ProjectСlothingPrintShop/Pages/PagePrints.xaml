@@ -1,0 +1,60 @@
+﻿<Page x:Class="ProjectСlothingPrintShop.Pages.PagePrints"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProjectСlothingPrintShop.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="PagePrints">
+
+    <Grid>
+        <Border Grid.Row="2" Background="LightCyan">
+            <ItemsControl Name="productsPanel">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Click="BtnClick"
+                                Tag="{Binding Id}"
+                                Background="White"
+                                Padding="-50"
+                                Margin="10"
+                                Width="200" Height="200">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="3*"/>
+                                    <RowDefinition Height="1*"/>
+                                </Grid.RowDefinitions>
+                                <Image Grid.Row="0" 
+                                       Width="150" Height="150"
+                                               Grid.Column="0" 
+                                               Source="{Binding ImageName}"/>
+
+                                <Border Grid.Row="1" 
+                                                Grid.Column="0"
+                                                Grid.ColumnSpan="2"
+                                                Margin="2" Background="AliceBlue">
+                                    <TextBlock 
+                                                       VerticalAlignment="Center"
+                                                       Text="{Binding Title}"
+                                                       TextAlignment="Center"
+                                                       FontSize="16"
+                                                       FontWeight="Bold"
+                                                       />
+                                </Border>
+                            </Grid>
+                        </Button>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </Border>
+    </Grid>
+</Page>

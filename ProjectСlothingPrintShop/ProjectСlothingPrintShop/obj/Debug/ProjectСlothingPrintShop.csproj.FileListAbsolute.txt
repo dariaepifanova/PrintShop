@@ -1,0 +1,27 @@
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\bin\Debug\ProjectСlothingPrintShop.exe.config
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\bin\Debug\ProjectСlothingPrintShop.exe
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\bin\Debug\ProjectСlothingPrintShop.pdb
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\GUI\LoginWindow.g.cs
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\MainWindow.g.cs
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\App.g.cs
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\ProjectСlothingPrintShop_MarkupCompile.cache
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\ProjectСlothingPrintShop_MarkupCompile.lref
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\GUI\LoginWindow.baml
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\MainWindow.baml
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\ProjectСlothingPrintShop.g.resources
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\ProjectСlothingPrintShop.Properties.Resources.resources
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\ProjectСlothingPrintShop.csproj.GenerateResource.Cache
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\ProjectСlothingPrintShop.exe
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\ProjectСlothingPrintShop.pdb
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\App.baml
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\Styles\TextBoxPlaceholderStyle.baml
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\Pages\PagePrints.g.cs
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\Pages\PagePrints.baml
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\Pages\PageСhoiceOptions.g.cs
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\Pages\PageСhoiceOptions.baml
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\Pages\PageOrder.g.cs
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\Pages\PageOrder.baml
+D:\Projects\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\ProjectСlothingPrintShop.csprojResolveAssemblyReference.cache
+D:\Новая папка (5)\ProjectСlothingPrintShop\ProjectСlothingPrintShop\bin\Debug\ProjectСlothingPrintShop.exe.config
+D:\Новая папка (5)\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\ProjectСlothingPrintShop.exe
+D:\Новая папка (5)\ProjectСlothingPrintShop\ProjectСlothingPrintShop\obj\Debug\ProjectСlothingPrintShop.pdb
