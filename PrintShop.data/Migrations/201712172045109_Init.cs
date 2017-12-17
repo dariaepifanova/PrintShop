@@ -3,7 +3,7 @@ namespace PrintShop.data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Initiate : DbMigration
+    public partial class Init : DbMigration
     {
         public override void Up()
         {
