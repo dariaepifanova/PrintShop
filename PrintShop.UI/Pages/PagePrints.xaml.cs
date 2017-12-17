@@ -58,9 +58,14 @@ namespace PrintShop.UI.Pages
             {
                 var item = unitOfWork.Prints.First(x => x.PrintItemId == Id);
                 var itemIdDb = item.PrintItemId;
+                var itemTitle = item.Title;
+                var itemImageName = item.ImageName;
+                OrdersManager.CurrentOrder.PrintImageName = item.ImageName;
+                OrdersManager.CurrentOrder.PrintTitle = itemTitle;
                 OrdersManager.CurrentOrder.PrintItemId = itemIdDb;
                 unitOfWork.Dispose();
             }
+
             OrdersManager.CurrentOrder.AdoptionDate = DateTime.Today;
             NavigationService.Navigate(new Uri("Pages/PageСhoiceOptions.xaml", UriKind.Relative));
         }

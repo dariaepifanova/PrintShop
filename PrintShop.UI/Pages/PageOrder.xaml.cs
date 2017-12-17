@@ -53,17 +53,16 @@ namespace PrintShop.UI.Pages
                 Order order = orders[0];
                 var itemDb = unitOfWork.Prints.First(o => o.PrintItemId == order.PrintItemId);
                 if(unitOfWork.Orders.OrdersQuantity()==0) orders.ForEach(o => o.OrderId = 1);
-                else orders.ForEach(o => o.OrderId = unitOfWork.Orders.GetTheLastOrder().OrderId + 1);
+                else orders.ForEach(o => o.OrderCode = unitOfWork.Orders.GetTheLastOrder().OrderCode + 1);
                 foreach (Order newOrder in orders)
                 {
+                    newOrder.OrderId = unitOfWork.Orders.OrdersQuantity() + 1;
                     unitOfWork.Orders.Add(newOrder);
                     unitOfWork.Complete();
                 }
                
             }
-            //Config.Repository.SaveOrders(orders);
             MessageBox.Show("Заказ оформлен");
-
         }
     }
 }
